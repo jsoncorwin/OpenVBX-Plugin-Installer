@@ -46,7 +46,7 @@
 		<?php echo isset($zip_fail);?>
 		</div>
 	<br />
-	<?php echo form_open_multipart('http://vbx.ripstyles.com/p/installer');?>
+	<?php echo form_open_multipart('p/installer');?>
 	
 	<input type="file" name="userfile" size="20" />
 	
